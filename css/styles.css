@@ -1,195 +1,39 @@
-/* #region Base */
-body {
-  background-color: #fff;
-  color: #434455;
-  font-family: "Roboto", sans-serif;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 375px;
 }
-
-ul,
-ol {
-  list-style-type: none;
+.hero-wrapper {
+  display: block;
+  padding: 100px 20px 40px 20px;
+  background-color: #576f35;
 }
-a {
-  text-decoration: none;
-}
-address {
-  font-style: normal;
-}
-button {
-  cursor: pointer;
-}
-/* #endregion */
-
-/* #region  Header*/
-.page-header {
-}
-.header-nav {
-}
-.logo {
-  color: #4d5ae5;
-  font-weight: 700;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+.hero-title {
+  font-family: "Inter Tight", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
+  color: #fbfbfb;
 }
-.header-logo .logo-part {
-  color: #2e2f42;
-}
-.nav-list {
-}
-.nav-item {
-}
-.nav-link {
-  color: #2e2f42;
+.hero-text {
   font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+.hero-wrap {
+  display: block;
+  background-image: url(../images/healthy-food-mob.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.contacts {
+@media screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
+  .hero-wrap {
+    background-image: url(../images/healthy-food-mob@2x.jpg);
+  }
 }
-.contacts-list {
-}
-.contacts-item {
-}
-.contacts-link {
-  color: #434455;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
-}
-/* #endregion */
-
-/* #region Solution */
-.solution {
-  background: #2e2f42;
-}
-.solution-title {
-  color: #fff;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
-.solution-button {
-  background: #4d5ae5;
-  color: #fff;
-  font-weight: 500;
-  font-size: 16px;
-  font-family: inherit;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-.solution-button:hover,
-.solution-button:focus {
-  background: #404bbf;
-}
-/* #endregion */
-
-/* #region Approache */
-.approache {
-}
-.approache-title {
-}
-.approache-list {
-}
-.approache-item {
-}
-.approache-subtitle {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.approache-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-/* #endregion */
-
-/* #region Team */
-.team {
-  background: #f4f4fd;
-}
-.team-title {
-  color: #2e2f42;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-}
-.team-list {
-}
-.team-iten {
-  background-color: #ffffff;
-}
-.team-img {
-}
-.team-subtitle {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.team-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-/* #endregion */
-
-/* #region Portfolio */
-.portfolio {
-}
-.portfolio-title {
-  color: #2e2f42;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-}
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-img {
-}
-.portfolio-subtitle {
-  color: #2e2f42;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.portfolio-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-/* #endregion */
-
-/* #region Footer */
-.page-footer {
-  background-color: #2e2f42;
-}
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
-.logo-part {
-}
-.footer-text {
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-/* #endregion */
