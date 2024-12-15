@@ -1,3 +1,39 @@
+body {
+  background-color: #fff;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+address {
+  font-style: normal;
+}
+button {
+  cursor: pointer;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -36,4 +72,17 @@
   .hero-wrap {
     background-image: url(../images/healthy-food-mob@2x.jpg);
   }
+}
+.work-svg {
+  fill: #fbfbfb;
+}
+.work-wrap {
+  display: block;
+
+  border: solid hsl(347, 97%, 50%);
+  background-color: #576f35;
+}
+.work-list {
+}
+.work-item {
 }
